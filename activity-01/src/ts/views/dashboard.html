@@ -1,0 +1,37 @@
+<!--
+ Copyright (c) 2014, 2024, Oracle and/or its affiliates.
+ Licensed under The Universal Permissive License (UPL), Version 1.0
+ as shown at https://oss.oracle.com/licenses/upl/
+ -->
+<!--
+ Copyright (c) 2014, 2024, Oracle and/or its affiliates.
+ Licensed under The Universal Permissive License (UPL), Version 1.0
+ as shown at https://oss.oracle.com/licenses/upl/
+ -->
+<div class="oj-hybrid-padding">
+  <h1>Activity 1</h1>
+  <oj-c-form-layout max-columns="1" direction="column">
+    <oj-c-input-text id="itdis" label-hint="Enter name" value="{{name}}">
+    </oj-c-input-text>
+    <oj-c-input-password value="acd" label-hint="Enter Password"></oj-c-input-password>
+    <!-- <oj-c-input-date-text label-hint="Enter date"></oj-c-input-date-text> -->
+    <oj-input-date-time raw-value="{{date}}" label-hint="Enter Date"></oj-input-date-time>
+    <oj-c-radioset id="enabledRadioset" value="laptop" label-hint="Select Gender" options="[[laptopOptions]]">
+    </oj-c-radioset>
+    <oj-c-checkbox id="enabledCheckboxOn" value="true">Do you have password?</oj-c-checkbox><br>
+    <oj-c-button id="chroming_button5" chroming="danger" label="Danger"></oj-c-button>
+  </oj-c-form-layout>
+</div>
+
+<!-- 
+Activity-01
+Use OJET cookbook as a reference to create a form layout, that will have following components in the existing project inside any one of the view & viewModels file
+1.      Form Layout: align the controls to take lesser width
+2.      Input Text
+3.      Input Secret
+4.      Input Date Time
+5.      Radio buttons
+6.      Checkbox
+7.      Drop down
+8.      Progress bar
+9.      Button : This must produce hello world message in alert box on click -->
